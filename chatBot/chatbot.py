@@ -56,8 +56,11 @@ class bot:
                         lastRatio = newRatio
                         best_key = j
 
-
-            self.response = self.chooseResponse(best_key, asking)   
+            #  Si no se entiende ninguna palabra, se procede al default
+            if(lastRatio < 0.2):
+                self.response = self.chooseResponse("default", asking)  
+            else:
+                self.response = self.chooseResponse(best_key, asking)   
             # print(best_key, lastRatio, self.respuestas_obj[best_key])       
             
 
@@ -75,8 +78,12 @@ class bot:
                     if(newRatio >= lastRatio):
                         lastRatio = newRatio
                         best_key = j
-
-            self.response = self.chooseResponse(best_key, asking)   
+                        
+            #  Si no se entiende ninguna palabra, se procede al default
+            if(lastRatio < 0.2):
+                self.response = self.chooseResponse("default", asking)  
+            else:
+                self.response = self.chooseResponse(best_key, asking)  
             # print(best_key, lastRatio, self.respuestas_obj[best_key])  
 
         
