@@ -30,5 +30,10 @@
     "bot":[
         "No puedo hablar sobre mis creadores...",
         "La respuesta es más complicada de lo que parece"
+    ],
+    "default":[
+        "Espero que tengas un buen día!, necesitas algo más?",
+        "Un gusto hablar contigo, te puedo ayudar en algo más?",
+        "Cuantos años tienes?"
     ]
 }
