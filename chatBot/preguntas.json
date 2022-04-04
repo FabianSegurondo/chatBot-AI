@@ -9,9 +9,28 @@
         "Cuál es tu nombre?",
         "Cómo te llamas?"
     ],
+    "nombre":[
+        "Un gusto conocerte!",
+        "Que lindo nombre!"
+    ],
+    "igual":[
+        "Me caes bien!",
+        "Que pudedo hacer por ti!"
+    ],
+    "igualmente":[
+        "Me caes bien!",
+        "Que pudedo hacer por ti?!"
+    ],
+    "por que":[
+        "Por qué mejor no hablamos de tí?"
+    ],
+    "tambien":[
+        "Espero que tengas un lindo día!"
+    ],
     "default":[
         "Espero que tengas un buen día!, necesitas algo más?",
         "Un gusto hablar contigo, te puedo ayudar en algo más?",
-        "Cuantos años tienes?"
+        "Cuantos años tienes?",
+        "Disculpa creo que no te entiendo bien"
     ]
 }
