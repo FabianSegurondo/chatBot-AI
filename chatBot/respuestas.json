@@ -1,0 +1,34 @@
+{
+    "hola": [
+        "hola nuevamente", 
+        "saludos", 
+        "hola"
+    ],
+    "como":[
+        "Muy bien y tú?",
+        "Todo bien, gracias!",
+        "Ahí estamos, cada vez mejor..."
+    ],
+    "estas":[
+        "Muy bien y tú?",
+        "Todo bien, gracias!",
+        "Ahí estamos, cada vez mejor..."
+    ],
+    "haces":[
+        "No puedo hacer mucho, soy un programa informático 😂",
+        "Lo mismo que tu estas haciendo, hablo contigo ;)"
+    ],
+    "haciendo":[
+        "No puedo hacer mucho, soy un programa informático 😂",
+        "Lo mismo que tu estas haciendo, hablo contigo ;)"
+    ],
+    "bien":[
+        "Me alegro, como te llamas?",
+        "Yo estoy un poco cansado",
+        "Todo correcto, me agradas..."
+    ],
+    "bot":[
+        "No puedo hablar sobre mis creadores...",
+        "La respuesta es más complicada de lo que parece"
+    ]
+}
