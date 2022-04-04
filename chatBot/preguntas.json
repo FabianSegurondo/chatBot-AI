@@ -1,0 +1,17 @@
+{
+    "hola": [
+        "Hola, cómo estás?",
+        "Hola, cómo te va?",
+        "Hola, qué tal todo?"
+    ],
+    "bien":[
+        "Con quién tengo el gusto de hablar?",
+        "Cuál es tu nombre?",
+        "Cómo te llamas?"
+    ],
+    "default":[
+        "Espero que tengas un buen día!, necesitas algo más?",
+        "Un gusto hablar contigo, te puedo ayudar en algo más?",
+        "Cuantos años tienes?"
+    ]
+}
