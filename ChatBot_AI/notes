@@ -8,3 +8,126 @@
 
 #tipo de respuesta y las palabras requeridas
 #recibe mensaje y lista de palabras
+
+
+---------
+chatbot pytorch
+--porpuse as seller of coffer
+-- goal of telling dates/shippment
+--goal of interaction
+
+--intents--
+-tags, patterns and responses
+-helps recognize trained model of chatbot
+-training pipeline
+
+THEORY
+NPL (stemming, tokenization, bag of word)
+
+1. prepare training data
+    --tag, reading, oatterns and respondrd
+    --convert string to vectir of numbers
+    --split tags in array of word
+    --pattern of array
+    --compare positions of patterns in array of words
+    --x and y data of models
+    --sentence of bag of word then number of patterns, then number of classes to softmax
+2. Tokenization
+splitting string into meaningful units (words, chars, etc)
+-tecnhiques vary
+3. stemming
+generate the root form of the words, crude heurisitics that chops of the ends off of words
+universe, university
+univers
+4. NLP Preprocessing pipeline
+    -tokenize a bag of word
+    -- lower (capital letters) + stem
+    --- exclude punctuation chars
+    ----calculate bag of words
+    -----get the vector of numbers
+
+                                -->Libraries
+
+nltk utils
+methods of tokenize gets a sentence, stemming gets a word, bag of words get and array and tokenization sentence
+porter stemmer, return the steam of the lower word
+--we also stem with once getted the tokenized sentenced and loop throu an enum index of thr array
+and qwecreat the bag of words with the tokenized sentences
+
+CREATE TRAINING DATA
+Train
+ --load json file in read mode
+ -- apply tokenization and stemming data
+ -- collect all words with a list and also a list of patterns and xy list to compare
+ --create a dictionary of tje intents, append tag, and loop of all patterns and apply tokenization ans stemming
+ -- and extend and append tokenized words with append
+ --then we ignore punctuation chars
+ -- then we stemmed the all words and we sort them
+ --then we create bag of words
+ with x train and y train and loop in these arrays and we append these
+ label is the y of train that give us de patterns
+ -- then this x and y are converted to a numpy array
+ -- we check positions in the bag of words
+-- we create a pytorch from the dataset of x and y
+--create a dataset, the implment init function
+---then get the samples, with self. x dat and also y
+--get item of these index
+---length to get the samples of datset
+--train loader we get a dataset
+--hyperparameters
+batch size = 8, train loder, data loader, iterates over it and get the model
+--irmpot model neural net get the i size and hiden size and oputput size (length of tags)
+--input is the x train size, output
+--output len of all words
+--check if wwe get the device or use the cpu to the cpu
+
+--loss an optimizer
+--criterion and opitmizer
+--learning rate
+--number of epochs, loop in range, trainer loader, with word and laberls to the device
+the oouyputs is words
+and loss criterian of outputs and labels
+backwar and optimizer
+to the zero gradient and step
+and get the number of epocs and losses per item
+and print the final loss
+loss decresed with each epoch
+means a good neural network
+---Save the date with the data
+--save the model, inputsiez, output, hidden size, store all the word and tags collected
+and save it in a serialized file
+--trianing complete
+
+Model
+--import torch
+-super method to invoque en train
+--class neuralnet derive of module
+---two hidden layers of neural nets
+----one layer fully connected, which is number of patterns, input size
+---other hidden layer size of differente number of classes, apply softmax and get probability of classes
+work with lnear layers
+---three sizes
+--relu actian=uan function
+
+--forward to get the linear layers with their I/O
+--dont apply softmax
+
+CHAT
+
+import random for random choices of answers
+impor the model, nltk, torch, and rhe device
+
+--open the file of train and load it with torch
+input sieze is the same as adata input
+and then implement and evalutate the model
+
+--then five bot a name
+--tokenize always our sentences
+--create a bag of words with X
+--reshape and give it 1 roll, cause we have one sample, then convert to numpy array
+--the we get the prediction of outout
+--get the tags prediction of each item
+--chck of matching of tags in intents
+--we get the randoms respsonses of the repsonse array
+--check the probability if it is high enoughm this is implemented with softmax of torch of the ouypuy
+--- prob of the predicition is bigger than 0.75 then we get the response

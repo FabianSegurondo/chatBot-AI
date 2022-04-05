@@ -4,14 +4,21 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
+        "Hola",
         "How are you",
+        "whats cracking yooo",
+        "whats up dog??",
+        "como es master??",
+        "shalom",
+        "guten tag",
         "Is anyone there?",
         "Hello",
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey chief",
+        "hola jefazo, como es",
+        "guten tar herr master",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -19,28 +26,39 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "chau","take care man","auf wiederseen","See you later", "Goodbye", "see ya man"],
       "responses": [
         "See you later, thanks for visiting",
+        "chauu chau ",
+        "hasta luego",
+        "au revoir",
+        "bye man take care, see ya dog",
+        "bye chief",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "gracias", "lo aprecio, gracias"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "un placer atenderte", "no hay porque bro", "siempre!!"]
     },
     {
       "tag": "items",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "what do you have in stores available",
+        "sizes and brands comming soon",
+        "any webppage available?"
       ],
       "responses": [
         "We sell coffee and tea",
-        "We have coffee and tea"
+        "We have coffee and tea",
+        "we have coffe and butter and milk and many more table products",
+        "cafe colombiano is the coming brand",
+        "the webpgae is: shopify.sales.store"
       ]
     },
     {
@@ -64,8 +82,8 @@
         "When do I get my delivery?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Delivery takes 2-5 days",
+        "Shipping takes 5-7 days"
       ]
     },
     {
@@ -78,6 +96,19 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "stocks",
+      "patterns": [
+        "what are my current stocks?",
+        "how are my stocks performing?",
+        "trending stocks and commodities"
+      ],
+      "responses": [
+        "your current stocks are: ALPHABET, META, TSLA, APPL, BERSHIRE HATHWAY, AMAZON, NASDQA AND THE S&P 500",
+        "Your stocks are up a 17.8 % today.",
+        "the commodities are: oil, gas, wheat, niquel, sillicon, silver"
       ]
     }
   ]
