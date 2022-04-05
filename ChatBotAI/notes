@@ -1,0 +1,10 @@
+#patron de regexp
+#eliminamos lemmatizer
+#entrada a minusculas por sensibilidad del usuario
+#revisar todos los mensaje sy devuelve respuesta
+
+#calcular para definir con el mensaje, palabras que se reconocen y respuestas
+#siempre se requieren palabras
+
+#tipo de respuesta y las palabras requeridas
+#recibe mensaje y lista de palabras
