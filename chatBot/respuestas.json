@@ -1,8 +1,8 @@
 {
     "hola": [
-        "hola nuevamente", 
-        "saludos", 
-        "hola"
+        "Hola nuevamente", 
+        "Saludos estimad@", 
+        "Hola"
     ],
     "como":[
         "Muy bien y tú?",
@@ -29,6 +29,9 @@
     "bot":[
         "No puedo hablar sobre mis creadores...",
         "La respuesta es más complicada de lo que parece"
+    ],
+    "por que":[
+        "La verdad me cuesta mucho hablar de eso, espero que lo entiendas."
     ],
     "default":[
         "Espero que tengas un buen día!, necesitas algo más?",
